@@ -1,5 +1,5 @@
 # Overview
-This project is an implementation of a Line Follower Robot, designed to autonomously follow a path using real-time image processing and control algorithms. The robot detects a red line using a camera and adjusts its velocity and direction accordingly. The system is built using ROS 2 (Humble) and OpenCV for image processing, with a modular design for detection, control, and path-following logic.
+This project is an implementation of a Line Follower Robot, designed to autonomously follow a path using real-time image processing and control algorithms. The robot detects a red line using a camera and adjusts its velocity and direction accordingly. The system is built using ROS 2 (Humble) and OpenCV for image processing, with a modular design for detection, control, and path-following logic. The project uses TurtleBot3 as the robot platform, and a world file provided by MIT is included for simulation.
 
 # Key Features
 - **Real-time Path Detection:** The robot uses image processing techniques to detect and follow a red line on a surface.
